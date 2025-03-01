@@ -3,23 +3,83 @@
 document.getElementById("btn-fix").addEventListener("click", function () {
     
     alert(`Board Updated Successfully`);
-    // const decrease = document.getElementById("decrease").value;
-    // const convertedDecrease = parseInt("decrease")
-    //    let counterDiv = document.getElementById("decrease");
-    //    let currentNumber = parseInt(counterDiv.textContent);
-    //    counterDiv.textContent = currentNumber - 1;
-
-    //  let counterDiv = document.getElementById("increase");
-    //  let currentNumber = parseInt(counterDiv.textContent);
-    //  counterDiv.textContent = currentNumber + 1;
-
-    // const increase = document.getElementById("increase").value;
-    // const convertedIncrease = parseInt("increase")
-    // let increaseDiv = document.getElementById("increase");
-    // let decreaseDiv = document.getElementById("decrease");
-
-    // increaseDiv.innerText = parseInt(increaseDiv.innerText) + 1;
-    // decreaseDiv.innerText = parseInt(decreaseDiv.innerText) - 1;
    
-    // document.getElementById("myButton").disabled = true;
+
+    const increase = document.getElementById("increase");
+    const decrease = document.getElementById("decrease");
+
+    increase.innerText = parseInt(increase.innerText) + 1;
+    decrease.innerText = parseInt(decrease.innerText) - 1;
+
+    const btnDisabled = document.getElementById("btn-fix");
+     btnDisabled.setAttribute("disabled", true);
+   
+    
 })
+
+document.getElementById("btn-cloud").addEventListener("click", function () {
+    
+    alert(`Board Updated Successfully`);
+
+    const increase = document.getElementById("increase");
+    const decrease = document.getElementById("decrease");
+
+    increase.innerText = parseInt(increase.innerText) + 1;
+    decrease.innerText = parseInt(decrease.innerText) - 1;
+
+    const btnDisabled = document.getElementById("btn-cloud")
+    btnDisabled.setAttribute("disabled", true);
+}); 
+
+document.getElementById("btn-swift").addEventListener("click", function () {
+    
+    alert(`Board Updated Successfully`);
+
+    const increase = document.getElementById("increase");
+    const decrease = document.getElementById("decrease");
+
+    increase.innerText = parseInt(increase.innerText) + 1;
+    decrease.innerText = parseInt(decrease.innerText) - 1;
+
+    const btnDisabled = document.getElementById("btn-swift")
+    btnDisabled.setAttribute("disabled", true);
+}); 
+document.getElementById("btn-meta").addEventListener("click", function () {
+    
+    alert(`Board Updated Successfully`);
+
+    const increase = document.getElementById("increase");
+    const decrease = document.getElementById("decrease");
+
+    increase.innerText = parseInt(increase.innerText) + 1;
+    decrease.innerText = parseInt(decrease.innerText) - 1;
+
+    const btnDisabled = document.getElementById("btn-meta")
+    btnDisabled.setAttribute("disabled", true);
+}); 
+document.getElementById("btn-google").addEventListener("click", function () {
+    
+    alert(`Board Updated Successfully`);
+
+    const increase = document.getElementById("increase");
+    const decrease = document.getElementById("decrease");
+
+    increase.innerText = parseInt(increase.innerText) + 1;
+    decrease.innerText = parseInt(decrease.innerText) - 1;
+
+    const btnDisabled = document.getElementById("btn-google")
+    btnDisabled.setAttribute("disabled", true);
+}); 
+document.getElementById("btn-glass").addEventListener("click", function () {
+    
+    alert(`Board Updated Successfully`);
+
+    const increase = document.getElementById("increase");
+    const decrease = document.getElementById("decrease");
+
+    increase.innerText = parseInt(increase.innerText) + 1;
+    decrease.innerText = parseInt(decrease.innerText) - 1;
+
+    const btnDisabled = document.getElementById("btn-glass")
+    btnDisabled.setAttribute("disabled", true);
+}); 
