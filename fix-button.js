@@ -18,7 +18,7 @@ document.getElementById("btn-fix").addEventListener("click", function () {
   
   const log = document.getElementById("log");
   const time = new Date().toLocaleTimeString();
-    log.innerText = `Task has added successfully at ${time}`;
+    log.innerText = `You have completed the task Fix Mobile Button Issue at ${time}`;
     
      log.style.display = "block";
 
@@ -46,7 +46,7 @@ document.getElementById("btn-cloud").addEventListener("click", function () {
 
     const log = document.getElementById("log-2");
     const time = new Date().toLocaleTimeString();
-    log.innerText = `Task has added successfully at ${time}`;
+    log.innerText = `You have completed the task Add Pay Success Modal at ${time}`;
 
 });
 
@@ -69,7 +69,7 @@ document.getElementById("btn-swift").addEventListener("click", function () {
 
     const log = document.getElementById("log-3");
     const time = new Date().toLocaleTimeString();
-    log.innerText = `Task has added successfully at ${time}`;
+    log.innerText = `You have completed the task Optimize Home Page at ${time}`;
 
 }); 
 
@@ -91,7 +91,7 @@ document.getElementById("btn-meta").addEventListener("click", function () {
 
     const log = document.getElementById("log-4");
     const time = new Date().toLocaleTimeString();
-    log.innerText = `Task has added successfully at ${time}`;
+    log.innerText = `You have completed the task Add New Emoji at ${time}`;
 }); 
 
 document.getElementById("btn-google").addEventListener("click", function () {
@@ -113,7 +113,7 @@ document.getElementById("btn-google").addEventListener("click", function () {
 
     const log = document.getElementById("log-5");
     const time = new Date().toLocaleTimeString();
-    log.innerText = `Task has added successfully at ${time}`;
+    log.innerText = `You have completed the task Integrate OpenAI API at ${time}`;
 
 }); 
 
@@ -136,7 +136,7 @@ document.getElementById("btn-glass").addEventListener("click", function () {
 
     const log = document.getElementById("log-6");
     const time = new Date().toLocaleTimeString();
-    log.innerText = `Task has added successfully at ${time}`;
+    log.innerText = `You have completed the task Improve Job Searching at ${time}`;
 
 }); 
 
