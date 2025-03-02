@@ -9,8 +9,11 @@ document.getElementById("btn-fix").addEventListener("click", function () {
   increase.innerText = parseInt(increase.innerText) + 1;
   decrease.innerText = parseInt(decrease.innerText) - 1;
 
-  const btnDisabled = document.getElementById("btn-fix");
-  btnDisabled.setAttribute("disabled", true);
+    
+    const btn = document.getElementById("btn-fix");
+    btn.style.opacity = "0.3";
+    btn.style.backgroundColor = "bg-indigo-600";
+    btn.style.pointerEvents = "none";
 
   
   const log = document.getElementById("log");
@@ -35,8 +38,11 @@ document.getElementById("btn-cloud").addEventListener("click", function () {
     increase.innerText = parseInt(increase.innerText) + 1;
     decrease.innerText = parseInt(decrease.innerText) - 1;
 
-    const btnDisabled = document.getElementById("btn-cloud")
-    btnDisabled.setAttribute("disabled", true);
+     const btn = document.getElementById("btn-cloud");
+     btn.style.opacity = "0.3";
+     btn.style.backgroundColor = "bg-indigo-600";
+     btn.style.pointerEvents = "none";
+
 
     const log = document.getElementById("log-2");
     const time = new Date().toLocaleTimeString();
@@ -55,8 +61,11 @@ document.getElementById("btn-swift").addEventListener("click", function () {
     increase.innerText = parseInt(increase.innerText) + 1;
     decrease.innerText = parseInt(decrease.innerText) - 1;
 
-    const btnDisabled = document.getElementById("btn-swift")
-    btnDisabled.setAttribute("disabled", true);
+     const btn = document.getElementById("btn-swift");
+     btn.style.opacity = "0.3";
+     btn.style.backgroundColor = "bg-indigo-600";
+     btn.style.pointerEvents = "none";
+
 
     const log = document.getElementById("log-3");
     const time = new Date().toLocaleTimeString();
@@ -74,8 +83,11 @@ document.getElementById("btn-meta").addEventListener("click", function () {
     increase.innerText = parseInt(increase.innerText) + 1;
     decrease.innerText = parseInt(decrease.innerText) - 1;
 
-    const btnDisabled = document.getElementById("btn-meta")
-    btnDisabled.setAttribute("disabled", true);
+     const btn = document.getElementById("btn-meta");
+     btn.style.opacity = "0.3";
+     btn.style.backgroundColor = "bg-indigo-600";
+     btn.style.pointerEvents = "none";
+
 
     const log = document.getElementById("log-4");
     const time = new Date().toLocaleTimeString();
@@ -92,8 +104,12 @@ document.getElementById("btn-google").addEventListener("click", function () {
     increase.innerText = parseInt(increase.innerText) + 1;
     decrease.innerText = parseInt(decrease.innerText) - 1;
 
-    const btnDisabled = document.getElementById("btn-google")
-    btnDisabled.setAttribute("disabled", true);
+    
+    const btn = document.getElementById("btn-google");
+    btn.style.opacity = "0.3";
+    btn.style.backgroundColor = "bg-indigo-600";
+    btn.style.pointerEvents = "none";
+
 
     const log = document.getElementById("log-5");
     const time = new Date().toLocaleTimeString();
@@ -111,8 +127,11 @@ document.getElementById("btn-glass").addEventListener("click", function () {
     increase.innerText = parseInt(increase.innerText) + 1;
     decrease.innerText = parseInt(decrease.innerText) - 1;
 
-    const btnDisabled = document.getElementById("btn-glass")
-    btnDisabled.setAttribute("disabled", true);
+    const btn = document.getElementById("btn-glass");
+    btn.style.opacity = "0.3";
+    btn.style.backgroundColor = "bg-indigo-600";
+    btn.style.pointerEvents = "none";
+
 
 
     const log = document.getElementById("log-6");
