@@ -22,9 +22,10 @@ document.getElementById("btn-fix").addEventListener("click", function () {
     
      log.style.display = "block";
 
-  
+
 
 })
+
 
 
 
